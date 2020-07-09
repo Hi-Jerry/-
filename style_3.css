@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p {
+    white-space: nowrap;
+}
+.b div:nth-of-type(1) p{
+    white-space: pre;
+}
+.b div:nth-of-type(2) p{
+    white-space: pre;
+}
+.a {
+    color: white;
+    background: gray;
+}
+h2 {
+    text-align: center;
+    line-height: 80px;
+    font-size: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: teal;
+}
+.b div {
+    overflow: hidden;
+}
+.b div p {
+    float: left;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+.b div h2 {
+    float: left;
+}
+.b div {
+    margin-bottom: 1px;
+    border: 1px solid whitesmoke;
+}

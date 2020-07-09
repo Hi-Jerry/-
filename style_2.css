@@ -1,0 +1,26 @@
+p {
+    white-space: pre;
+}
+dl dt {
+    margin-top: 20px;
+}
+dl dd {
+    text-indent: -40px;
+}
+.a {
+    float: left;
+    width: 150px;
+    height: 800px;
+    color: white;
+    background: blue;
+}
+.a h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+.b {
+    float: left;
+    padding-left: 20px;
+    width: 450px;
+    height: 800px;
+}
