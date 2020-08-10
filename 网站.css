@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1600px;
+    margin: 5px auto;
+}
+
+header {
+    background: url(images/1.png) rgba(20, 20, 20, 0);
+    position: relative;
+    height: 1000px;
+}
+header p{
+    color: white;
+}
+header > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+header > div > p:nth-of-type(1) {
+    width: 770px;
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+header > div > p:nth-of-type(2) {
+    width: 770px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+fieldset {
+    width: 970px;
+    height: 200px;
+    border: 1px solid rgb(87, 85, 81);
+}
+fieldset > div {
+    width: 770px;
+    margin: 50px auto;
+}
+fieldset > div > p {
+    width: 770px;
+    text-align: center;
+}
+fieldset > div > p:nth-of-type(2) {
+    font-size: 10px;
+    margin-top: 10px;
+}
+fieldset > div > div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+fieldset > div > div input {
+    width: 290px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0)
+}
+fieldset > div > div input:nth-of-type(3) {
+    width: 125px;
+    background: white;
+}
+
+nav {
+    height: 700px;
+    background: white;
+    position: relative;
+}
+nav > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+nav > div > p:nth-of-type(1) {
+    font-size: 15px;
+    width: 665px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav > div > p:nth-of-type(2) {
+    font-size: 40px;
+    width: 665px;
+    margin: 20px auto;
+    text-align: center;
+}
+nav ul {
+    width: 1036px;
+    height: 200px;
+    margin: 50px auto;
+    position: relative;
+    border: 1px solid red;
+}
+nav ul li {
+    width: 362px;
+    height: 85px;
+    border: 1px solid red;
+} 
+nav ul li:nth-of-type(1) {
+    list-style: url(images/_03.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+nav ul li:nth-of-type(2) {
+    list-style: url(images/_05.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+nav ul li:nth-of-type(3) {
+    list-style: url(images/_09.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+nav ul li:nth-of-type(4) {
+    list-style: url(images/_11.png);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+nav ul li p:nth-child(1) {
+    font-size: 20px;
+}
+nav ul li p:nth-child(2) {
+    margin-top: 10px;
+}
+
+
+section {
+    overflow: hidden;
+    background: url(images/_2.png) rgba(73, 77, 56, 0.35);
+    height: 720px;
+    position: relative;
+}
+section div:nth-of-type(1) {
+    width: 500px;
+    position: absolute;
+    left: 315px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+section div:nth-of-type(1) p {
+    width: 370px;
+    color: white;
+}
+section div:nth-of-type(1) p:nth-of-type(1) {
+    font-size: 40px;
+}
+section div:nth-of-type(1) p:nth-of-type(2) {
+    margin: 40px 0;
+}
+section div:nth-of-type(1) input {
+    width: 239px;
+    height: 61px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0);
+}
+section div:nth-of-type(1) input:hover {
+    background: white;
+}
+section img {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+section img:nth-of-type(1) {
+    left: 956px;
+}
+section img:nth-of-type(2) {
+    left: 1016px;
+}
+
+article {
+    position: relative;
+    height: 1300px;
+}
+article > div {
+    width: 970px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+article > div > p {
+    font-size: 40px;
+    margin: 50px auto;
+    text-align: center;
+}
+article > div > div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-around;
+}
+article > div > div:nth-of-type(1) div {
+    width: 253px;
+    position: relative;
+}
+article > div > div:nth-of-type(1) div img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+article > div > div:nth-of-type(1) div p {
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(132, 132, 132);
+}
+
+article > div > div:nth-of-type(2) {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+article > div > div:nth-of-type(2) p {
+    width: 313px;
+}
+article > div > div:nth-of-type(2) p:nth-of-type(1) {
+    font-size: 20px;
+    margin-top: 80px;
+}
+article > div > div:nth-of-type(2) p:nth-of-type(2) {
+    color:  rgb(132, 132, 132);
+    margin: 30px 0;
+}
+
+article > div > div:nth-of-type(3) {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+article > div > div:nth-of-type(3) p {
+    width: 313px;
+}
+article > div > div:nth-of-type(3) p:nth-of-type(1) {
+    font-size: 20px;
+    margin-top: 80px;
+}
+article > div > div:nth-of-type(3) p:nth-of-type(2) {
+    color:  rgb(132, 132, 132);
+    margin: 30px 0;
+}
+
+.author {
+    height: 1000px;
+    position: relative;
+}
+.author > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.author > div > p {
+    text-align: center;
+    padding:0 100px;
+}
+.author > div > p:nth-of-type(1) {
+    font-size: 40px;
+    margin-top: 80px;
+}
+.author > div > p:nth-of-type(2) {
+    margin: 50px 0;
+    color: rgb(132, 132, 132);
+}
+.author > div > div {
+    position: relative;
+    width: 970px;
+    height: 710px;
+}
+.author > div > div > div {
+    position: absolute;
+    width: 473px;
+    height: 342px;
+    overflow: hidden;
+}
+.author > div > div > div:nth-of-type(1) {
+    top: 0;
+    left: 0;
+}
+.author > div > div > div:nth-of-type(2) {
+    top: 0;
+    right: 0;
+}
+.author > div > div > div:nth-of-type(3) {
+    bottom: 0;
+    left: 0;
+}
+.author > div > div > div:nth-of-type(4) {
+    bottom: 0;
+    right: 0;
+}
+
+.author > div > div > div > div {
+    width: 473px;
+    height: 342px;
+    background: rgba(102, 102, 102,0.8);
+    position: relative;
+}
+.author > div > div > div:hover > div {
+    transform: translateY(-345px);
+    transition: all 1s;
+}
+.author > div > div > div > div > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+}
+.author > div > div > div > div > div p {
+    text-align: center;
+    color: white;
+}
+.author > div > div > div > div > div p:nth-of-type(1) {
+    font-size: 20px;
+}
+.author > div > div > div > div > div p:nth-of-type(2) {
+    margin: 10px 0 30px 0;
+    color: rgb(100, 100, 100);
+}
+.author > div > div > div > div > div > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    height: 700px;
+    position: relative;
+}
+.contact > div {
+    width: 970px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contact > div fieldset { 
+    float: left;
+    width: 469px;
+    height: 558px;
+    border: rgb(213, 213, 213) 1px solid;
+}
+.contact > div fieldset p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.contact > div fieldset input {
+    display: block;
+    width: 372px;
+    height: 55px;
+    margin: 30px auto;
+    color: rgb(213, 213, 213);
+    padding-left: 10px;
+}
+.contact > div fieldset input:nth-child(3) {
+    height: 130px;
+}
+.contact > div fieldset input:nth-child(4) {
+    width: 382px;
+    background: rgb(20, 20, 20);
+    color: white;
+}
+.contact > div > div {
+    float: right;
+    width: 368px;
+    
+}
+.contact > div > div p:nth-child(1) {
+    font-size: 50px;
+    margin-top: 80px;
+}
+.contact > div > div p:nth-child(2) {
+    color: rgb(213, 213, 213);
+    margin: 20px 0 50px;
+}
+.contact > div > div img {
+    display: block;
+    margin: 30px 0;
+}
+
+footer {
+    height: 300px;
+    background: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-around;
+}
+footer dl {
+    font-size: 10px;
+}
+footer dl a {
+    text-decoration: none;
+}
+footer dl dt{
+    color: white;
+    margin-top: 60px;
+}
+footer dl dd {
+    color: rgb(213, 213, 213);
+    margin: 20px 0;
+}
